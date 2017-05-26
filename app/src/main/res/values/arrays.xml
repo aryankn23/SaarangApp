@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_Catagory_options">
+        <item>@string/Catagory_one</item>
+        <item>@string/Catagory_two</item>
+        <item>@string/Catagory_three</item>
+        <item>@string/Catagory_four</item>
+        <item>@string/Catagory_five</item>
+        <item>@string/Catagory_six</item>
+    </string-array>
+
+    <string-array name="array_Event_options">
+        <item>@string/Event_1</item>
+        <item>@string/Event_2</item>
+
+    </string-array>
+
+
+</resources>

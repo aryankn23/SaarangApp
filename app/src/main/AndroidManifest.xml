@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aryan.saarangapp">
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Saarang 2017"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".Catagory1Activity"
+            android:label="Catagory1"
+            android:parentActivityName=".MainActivity"/>
+
+
+        <activity
+            android:name=".Catagory3Activity"
+            android:label="Catagory3"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Catagory2Activity"
+            android:label="Catagory2"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Catagory4Activity"
+            android:label="Catagory4"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Catagory5Activity"
+            android:label="Catagory5"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Catagory6Activity"
+            android:label="Catagory6"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Catagory1Event1Activity"
+            android:label="Event1"
+            android:parentActivityName=".Catagory1Activity"/>
+        <activity
+            android:name=".Catagory1Event2Activity"
+            android:label="Event2"
+            android:parentActivityName=".Catagory1Activity"/>
+        <activity android:name=".EditorActivity"
+            android:label="Register an event"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>

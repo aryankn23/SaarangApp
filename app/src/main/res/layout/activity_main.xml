@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aryan.saarangapp.MainActivity">
+<LinearLayout
+    android:layout_width="368dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Catagory1"
+       android:id="@+id/catagory_1"
+       android:layout_margin="@dimen/container"
+
+       style="@style/container"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catagory2"
+        android:id="@+id/catagory_2"
+        style="@style/container"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catagory3"
+        style="@style/container"
+        android:id="@+id/catagory_3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catagory4"
+        android:id="@+id/catagory_4"
+        style="@style/container"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/catagory_5"
+        android:text="Catagory5"
+        style="@style/container"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catagory6"
+        android:id="@+id/catagory_6"
+        style="@style/container"/>
+ <android.support.design.widget.FloatingActionButton
+     android:id="@+id/fab"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="bottom|end"
+     android:layout_margin="@dimen/fab_margin"
+     android:src="@android:drawable/ic_input_add" />
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

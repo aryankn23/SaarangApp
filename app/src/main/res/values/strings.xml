@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SaarangApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_catagory2">Catagory2Activity</string>
+
+    <string name="Catagory_one">Catagory one</string>
+    <string name="Catagory_two">Catagory two</string>
+
+    <string name="Catagory_three">Catagory three</string>
+    <string name="Catagory_four">Catagory four</string>
+    <string name="Catagory_five">Catagory five</string>
+    <string name="Catagory_six">Catagory six</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="Event_1">Event One</string>
+    <string name="Event_2">Event Two</string>
+</resources>
